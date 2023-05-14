@@ -5,9 +5,6 @@ This document is a guide on the ER diagram designed for a Library Management Sys
 # Objective of the Library Management System
 
 The main objective of the library management system is to manage the lending and return of books by users, as well as the inventory control of books and the recording of relevant library information.
-# Objective of the Library Management System
-
-The main objective of the library management system is to manage the lending and return of books by users, as well as the inventory control of books and the recording of relevant library information.
 
 # Entities
 The ER diagram contains the following entities:
