@@ -11,7 +11,7 @@ The ER diagram contains the following entities:
 
 + city
 + Library
-+staff
++ staff
 + Manager
 + Librarian
 + Reserve
@@ -25,8 +25,6 @@ With the information provided, the following relationships between the entities 
 + The City entity has a one-to-many relationship with the Library entity, since a city can have multiple libraries, but a library belongs to only one city.
 + The Library entity has a one-to-many relationship with the Staff entity, since a library can have multiple workers, but a worker works on only one library.
 + The Library entity has a one-to-one relationship with the Library Manager entity, since a library has only one manager and a manager only works in one library.
-+ The Library entity has a one-to-many relationship with the Item entity, since a library can have multiple items of a book, but an item belongs to only one library.
-+ The Library entity has a one-to-many relationship with the Checkout entity, since a library can have multiple checkouts, but a checkout is made to a single library.
 + The Client entity has a one-to-many relationship with the Reservation entity, since a client can make multiple reservations, but a reservation is made by only one client.
 + The Book entity has a one-to-many relationship with the Booking entity, since a book can have multiple bookings, but a booking is for a single book.
 
